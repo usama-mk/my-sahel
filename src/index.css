@@ -1,3 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.img-overlay {
+  /* other styles (left, top, right, and padding) */
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.85), transparent);
+  padding-top: 60px;
+  width: 100%;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
