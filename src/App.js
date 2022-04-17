@@ -3,7 +3,7 @@ import LandingPage from './pages/LandingPage/LandingPage';
 
 function App() {
   return (
-    <div className="App 2xl:p-10 2xl:pt-5">
+    <div className="App  2xl:pt-5">
       <LandingPage/>
     </div>
   );
