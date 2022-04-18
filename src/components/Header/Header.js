@@ -19,10 +19,10 @@ function Header() {
 
   const MobileMenu = () => {
     return (
-      <div className="flex flex-col justify-between items-center p-3  w-full border-2 bg-gray-400 2xl:mr-10 rounded-2xl mt-3  ">
+      <div className="flex flex-col justify-between items-center p-3  w-full border-2 bg-[#009688] 2xl:mr-10 rounded-2xl mt-3  ">
         <div className="border-4 border-red-500 bg-red-400 py-1 px-3 text-[white] rounded-full" onClick={() => setNavbarOpen(!navbarOpen)}>X</div>
 
-        <div className="w-[80vw]">
+        <div className="w-[80vw] text-white">
           <h5 className=" m-3 2xl:m-5">HOME</h5>
           <h5 className="m-3 2xl:m-5">LATEST</h5>
           <h5 className="m-3 2xl:m-5">ABOUT THE EVENTS</h5>

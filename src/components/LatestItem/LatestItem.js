@@ -1,16 +1,8 @@
 import React from "react";
 import arrow from "../../assets/images/arrow-2x.png";
+import { LatestTag } from "./LatestTag";
 
 function LatestItem({ latestImage, latestText,first }) {
-
-
-  const LatestTag = ({ tagName }) => {
-    return (
-      <div className="px-2 py-1 text-white uppercase border-2 border-white rounded-full w-fit text-[10px] ">
-        {tagName}
-      </div>
-    );
-  };
 
 //   ${first?'w-[55%]':'w-[40%]'} 
   return (
@@ -26,7 +18,7 @@ function LatestItem({ latestImage, latestText,first }) {
       </div>
       <img
         src={arrow}
-        className=" absolute w-5 right-5 bottom-5 object-contain "
+        className={` absolute w-5 right-5 bottom-5 object-contain `}
         alt=""
       />
     </div>
@@ -34,3 +26,5 @@ function LatestItem({ latestImage, latestText,first }) {
 }
 
 export default LatestItem;
+
+
