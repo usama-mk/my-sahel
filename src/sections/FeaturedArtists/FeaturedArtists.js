@@ -14,9 +14,9 @@ function FeaturedArtists() {
 
     const WhySahelHelp=()=>{
         return(
-            <div className='flex' >
+            <div className='flex flex-col sm:flex-row   ' >
                 {/* why left */}
-                <div className='w-[50%] bg-[#161616] text-white py-10 px-5 ' >
+                <div className='sm:w-[50%] bg-[#161616] text-white py-10 px-5 ' >
 
                     <SectionHeader name={"why the sahel region needs your help"} borderBottomWhite={"true"} />
                     <div className="flex justify-evenly sm:justify-start  py-3  ">
@@ -40,7 +40,7 @@ function FeaturedArtists() {
                 {/* why left end */}
 
                  {/* why right */}
-                 <div className='w-[50%]' >
+                 <div className='sm:w-[50%]' >
                     <img className='h-[100%] object-cover'  src={desertWalk} alt="" />
                 </div>
                 {/* why right end */}
