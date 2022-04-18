@@ -12,7 +12,7 @@ function Events() {
       {/* events body */}
       <div className="sm:flex mb-10">
         {/* left */}
-        <div className="flex flex-col justify-evenly sm:items-start p-3 bg-[#43A047] sm:w-[33%] ">
+        <div className="flex flex-col justify-evenly sm:items-start p-3 bg-[#43A047] sm:w-[34%] ">
           {/* tags */}
           <div className="flex justify-evenly sm:justify-start">
             <LatestTag tagName={"Event 1"} />

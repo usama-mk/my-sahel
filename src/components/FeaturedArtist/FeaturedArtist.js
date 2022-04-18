@@ -10,8 +10,8 @@ function FeaturedArtist({ image, heading, desc, tagNames }) {
         <div className="flex justify-evenly sm:justify-start  py-3  ">
           
           {
-              tagNames.map((tagName)=>
-              <LatestTag fill={"black"} tagName={tagName}/> )
+              tagNames.map((tagName , key)=>
+              <LatestTag key={key} fill={"black"} tagName={tagName}/> )
           }
           
           
