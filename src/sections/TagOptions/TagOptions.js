@@ -3,7 +3,7 @@ import TagOption from '../../components/TagOption/TagOption'
 
 function TagOptions() {
   return (
-    <div className='p-5 flex flex-col sm:flex-row sm:flex-wrap sm:justify-start items-center ' >
+    <div className='p-5 flex flex-col sm:flex-row sm:flex-wrap sm:justify-start items-center 3xl:my-10 ' >
         <TagOption name={"why sahel need you"} />
         <TagOption name={"events"} />
         <TagOption name={"nft"} />
