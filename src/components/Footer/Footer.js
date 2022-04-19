@@ -19,7 +19,7 @@ function Footer() {
         </div> 
 
         <div className='mb-5' >
-              <h5 className="mb-3 2xl:m-5">ABOUT THE EVENTS</h5>
+              <h5 className="mb-3 2xl:m-5 2xl:mt-0 ">ABOUT THE EVENTS</h5>
               <h5 className="mb-3 2xl:m-5">ELUV.IO</h5>
             <h5 className="mb-3 2xl:m-5">EVENT DETAILS</h5>
 
@@ -36,7 +36,7 @@ function Footer() {
         </div>     
     </div>
 
-    <div className='border-t-2 border-black m-10 flex flex-col sm:flex-row sm:justify-between  ' >
+    <div className='border-t-2 border-black m-5 flex flex-col sm:flex-row sm:justify-between  ' >
 <h5 className='uppercase mt-5 sm:mt-2 ' >MYSAHEL2022</h5>
 <h5 className='font-bold mt-5 sm:mt-2' >Cooking Settings</h5>
 <h5 className='font-bold mt-5 sm:mt-2' >Don’t Sell My Information</h5>

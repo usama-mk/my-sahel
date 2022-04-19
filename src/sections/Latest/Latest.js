@@ -16,16 +16,16 @@ function Latest() {
         {/* heading */}
         <SectionHeader name={"latest"} />
         
-        <div className="flex  flex-col sm:flex-row    ">
+        <div className="flex  flex-col sm:flex-row     ">
       {/* hero Left */}
        
-       <LatestItem latestImage={needsYou} latestText="Why the Sahel Region Needs You" first={true} />  
+       <LatestItem latestImage={needsYou} latestText="Why the Sahel Region Needs You" first={true} tagName={"purpose"} />  
          
 
      
       {/* hero right */}
       
-       <LatestItem latestImage={eventDetails} latestText="MySahel Event Details" />  
+       <LatestItem latestImage={eventDetails} latestText="MySahel Event Details" tagName={"about"} />  
       
     </div>
 
