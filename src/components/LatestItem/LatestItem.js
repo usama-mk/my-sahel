@@ -7,7 +7,7 @@ function LatestItem({ latestImage, latestText,first, tagName }) {
 //   ${first?'w-[55%]':'w-[40%]'} 
 // ${first?'w-[100%]':'3xl:w-[60%]  '}
   return (
-    <div className={`  relative text-[white]  `}> 
+    <div className={`${first?'3xl:w-[60%]':'3xl:flex 3xl:flex:grow  '}  relative text-[white]  `}> 
     {/* remove this h for 100% actual */}
       <img src={latestImage} className={`opacity-[88%] object-cover ${first?'w-[100%]':'w-[100%]  3xl:text-[800px]  '}   `} alt="" />
       {/* remove text-[800px] */}

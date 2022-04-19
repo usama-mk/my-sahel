@@ -9,7 +9,7 @@ function ArtNft() {
   return (
     <div>
          <SectionHeader name={"art exhibition & nft"} />
-         <div className=" sm:flex mb-10 ">
+         <div className=" sm:flex mb-10 mr-0  ">
          <FeaturedArtist art={true} heading={"live art exhibitions"}
          image={artistOne} 
          tagNames={["art exhibition"]}
@@ -23,6 +23,7 @@ function ArtNft() {
          image={artistThree} 
          tagNames={["artists"]}
          />
+         
          </div>
     </div>
   )

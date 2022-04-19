@@ -4,7 +4,7 @@ import smallDownArrow from '../../assets/images/small-down-arrow@2x.png'
 
 function FeaturedArtist({ image, heading, desc, tagNames, art }) {
   return (
-    <div className="flex flex-col justify-evenly sm:items-start py-3 mb-10 sm:w-[33%] sm:h-[100%] ">
+    <div className="flex flex-grow flex-col justify-evenly sm:items-start py-3 mb-10 sm:w-[33%] sm:h-[100%] ">
       <img src={image} className='h-[100%] 3xl:w-[640px] 3xl:h-[633px] object-cover ' alt="" />
       <div className="flex flex-col p-4">
         <div className="flex justify-evenly sm:justify-start  py-3  ">
