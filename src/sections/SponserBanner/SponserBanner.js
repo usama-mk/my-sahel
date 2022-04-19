@@ -7,6 +7,7 @@ function SponserBanner() {
   return (
     <div className="bg-[#FEBF10] p-10">
       <SectionHeader name={"become a sponser"} />
+      <div className="m-8" >
       <div className="flex justify-evenly sm:justify-start  py-3  ">
         <LatestTag fill={"black"} tagName={"benefit concert"} />
         <LatestTag fill={"black"} tagName={"art exhibition"} />
@@ -23,6 +24,7 @@ function SponserBanner() {
           UNITED NATIONS OCHA PROJECT
           </span>
           </div>
+      </div>
       </div>
     </div>
   );

@@ -10,16 +10,16 @@ function ArtNft() {
     <div>
          <SectionHeader name={"art exhibition & nft"} />
          <div className=" sm:flex mb-10 ">
-         <FeaturedArtist heading={"live art exhibitions"}
+         <FeaturedArtist art={true} heading={"live art exhibitions"}
          image={artistOne} 
          tagNames={["art exhibition"]}
          />
-          <FeaturedArtist heading={"nfts through eluv.io platform"}
+          <FeaturedArtist art={true} heading={"nfts through eluv.io platform"}
          image={artistTwo} 
          tagNames={["nft", "eluv.io"]}
          />
 
-        <FeaturedArtist heading={"featuring sahel's most talented artists"}
+        <FeaturedArtist art={true} heading={"featuring sahel's most talented artists"}
          image={artistThree} 
          tagNames={["artists"]}
          />
