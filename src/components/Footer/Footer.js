@@ -16,7 +16,7 @@ function Footer() {
         </h1>
 
         <img className=" w-20 2xl:w-32 m-5 mb-10 sm:m-0" src={unLogo} alt="" />
-        </div>
+        </div> 
 
         <div className='mb-5' >
               <h5 className="mb-3 2xl:m-5">ABOUT THE EVENTS</h5>
