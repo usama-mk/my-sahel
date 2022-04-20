@@ -15,11 +15,11 @@ function Footer() {
             My<span className='font-bold ' >Sahel</span>
         </h1>
 
-        <img className=" w-20 2xl:w-32 m-5 mb-10 sm:m-0 3xl:w-[294px] 3xl:h-[83px] " src={unLogo} alt="" />
+        <img className=" w-20  m-5 mb-10 sm:m-0 3xl:w-[294px] 3xl:h-[83px] " src={unLogo} alt="" />
         </div> 
 
         <div className='mb-5 3xl:text-[40px] leading-[60px] ' >
-              <h5 className="mb-3  2xl:mt-0 ">ABOUT THE EVENTS</h5>
+              <h5 className="mb-3  3xl:mt-0 ">ABOUT THE EVENTS</h5>
               <h5 className="mb-3 ">ELUV.IO</h5>
             <h5 className="mb-3 ">EVENT DETAILS</h5>
 

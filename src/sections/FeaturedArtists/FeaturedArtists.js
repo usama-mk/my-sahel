@@ -20,7 +20,7 @@ function FeaturedArtists() {
 
                     <SectionHeader name={"why the sahel region needs your help"} borderBottomWhite={"true"} />
                     
-                    <div className='3xl:m-8' >
+                    <div className='2xl:m-4 3xl:m-8' >
                     <div className="flex justify-evenly sm:justify-start  py-3  ">
                     <LatestTag event={true} tagName={"about"}/> 
                     <LatestTag event={true} tagName={"history"}/> 
