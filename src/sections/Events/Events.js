@@ -48,7 +48,7 @@ function Events() {
 
         {/* mid  */}
         <div className="flex flex-col bg-[#E5E5E5] sm:items-start " >
-            <img src={concert} className='2xl:w-[457px] 2xl:h-[285px] 3xl:w-[657px] 3xl:h-[385px] object-cover ' alt="" />
+            <img src={concert} className='2xl:w-[657px] 2xl:h-[285px] 3xl:w-[657px] 3xl:h-[385px] object-cover ' alt="" />
             <div className=" p-5 sm:text-left 2xl:p-8 3xl:p-10 " >
             <div className="flex justify-evenly sm:justify-start ">
             <LatestTag event={true} fill={"black"} tagName={"Event 1"} />
@@ -75,7 +75,7 @@ function Events() {
 
         {/* right */}
         <div className="flex flex-col bg-[#EEEEEE] sm:items-start " >
-            <img className='2xl:w-[457px] 2xl:h-[285px] 3xl:w-[657px] 3xl:h-[385px] object-cover  ' src={homeConcert} alt="" />
+            <img className='2xl:w-[657px] 2xl:h-[285px] 3xl:w-[657px] 3xl:h-[385px] object-cover  ' src={homeConcert} alt="" />
             <div className=" p-5 sm:text-left " >
            <div className="flex justify-evenly sm:justify-start" >
            <LatestTag event={true} fill={"black"} tagName={"coming soon"} />
