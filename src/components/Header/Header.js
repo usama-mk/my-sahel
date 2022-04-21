@@ -1,7 +1,8 @@
 import React, { useState } from "react";
-import sahelLogo from "../../assets/images/MySahel-2x.png";
 import unLogo from "../../assets/images/un-2x.png";
 import { useMediaQuery } from "react-responsive";
+import { Link } from "react-router-dom";
+
 
 function Header() {
   const isBigScreen = useMediaQuery({ query: "(min-width: 900px)" });
@@ -23,9 +24,14 @@ function Header() {
         <div className="border-4 border-red-500 bg-red-400 py-1 px-3 text-[white] rounded-full" onClick={() => setNavbarOpen(!navbarOpen)}>X</div>
 
         <div className="w-[80vw] text-white">
-          <h5 className=" m-3 2xl:m-3 3xl:m-5">HOME</h5>
-          <h5 className="m-3 2xl:m-3 3xl:m-5">LATEST</h5>
-          <h5 className="m-3 2xl:m-3 3xl:m-5">ABOUT THE EVENTS</h5>
+          <h5 className=" m-3 2xl:m-3 3xl:m-5">
+          <Link to="/">HOME</Link>
+          </h5>
+          <h5 className="m-3 2xl:m-3 3xl:m-5">
+            LATEST</h5>
+          <h5 className="m-3 2xl:m-3 3xl:m-5">
+          <Link to="/about-events">ABOUT THE EVENTS</Link>
+            </h5>
           <h5 className="m-3 2xl:m-3 3xl:m-5">ARTISTS</h5>
           <h5 className="m-3 2xl:m-3 3xl:m-5">ART EXHIBITION</h5>
           <SponserButton/>
@@ -51,7 +57,9 @@ function Header() {
         {isBigScreen ? (
           <div className="headerOptions 2xl:flex 2xl:justify-between 2xl:items-center 2xl:p-2  ">
             <div className="flex justify-between items-center 2xl:text-[14px] 3xl:text-[21px] 2xl:mr-10">
-              <h5 className=" cursor-pointer 2xl:m-5">HOME</h5>
+              <h5 className=" cursor-pointer 2xl:m-5">
+              <Link to="/">HOME</Link>
+              </h5>
               <h5 className=" cursor-pointer 2xl:m-5">LATEST</h5>
               <h5 className=" cursor-pointer 2xl:m-5">ABOUT THE EVENTS</h5>
               <h5 className=" cursor-pointer 2xl:m-5">ARTISTS</h5>
