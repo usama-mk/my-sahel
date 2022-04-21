@@ -6,7 +6,7 @@ import TagOptions from '../../sections/TagOptions/TagOptions'
 import Footer from '../../components/Footer/Footer'
 import WhyNeedsItem from '../../components/WhyNeedsItem/WhyNeedsItem'
 import hippoCover from '../../assets/images/hippo-cover@2x.png'
-import hippoCover4x from '../../assets/images/hippoCover@4x.png'
+
 
 
 function NftBlockchain() {
