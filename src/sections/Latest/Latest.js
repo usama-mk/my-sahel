@@ -12,27 +12,27 @@ import LatestItemTwo from '../../components/LatestItemTwo/LatestItemTwo'
 
 function Latest() {
   return (
-    <div>
+    <div id="latest" >
         {/* heading */}
-        <SectionHeader name={"latest"} />
+        <SectionHeader name={"latest"} id={`#latest`} />
         
         <div className="flex  flex-col sm:flex-row     ">
       {/* hero Left */}
        
-       <LatestItem latestImage={needsYou} latestText="Why the Sahel Region Needs You" first={true} tagName={"purpose"} />  
+       <LatestItem latestImage={needsYou} latestText="Why the Sahel Region Needs You" first={true} tagName={"purpose"} address={"needs-you"} />  
          
 
      
       {/* hero right */}
       
-       <LatestItem latestImage={eventDetails} latestText="MySahel Event Details" tagName={"about"} />  
+       <LatestItem latestImage={eventDetails} latestText="MySahel Event Details" tagName={"about"} address={"about-events"} />  
       
     </div>
 
     <div className="row-2 sm:flex mb-10">
-    <LatestItemTwo image={hippo} text="NFT & Blockchain pairing" /> 
-    <LatestItemTwo image={guitar} text="featured artists" /> 
-    <LatestItemTwo image={sunset} text="become a sponser" /> 
+    <LatestItemTwo image={hippo} text="NFT & Blockchain pairing" address={"nfts-blockchain"} /> 
+    <LatestItemTwo image={guitar} text="featured artists" address={"artists"} /> 
+    <LatestItemTwo image={sunset} text="become a sponser" address={"art-exhibition"} /> 
     </div>
     </div>
   )

@@ -6,9 +6,13 @@ import TagOptions from '../../sections/TagOptions/TagOptions'
 import Footer from '../../components/Footer/Footer'
 import WhyNeedsItem from '../../components/WhyNeedsItem/WhyNeedsItem'
 import whyCover from '../../assets/images/why-cover@2x.png'
+import { scrollToTop } from '../../utilities/scroll'
+
 
 
 function WhyNeedsYou() {
+  scrollToTop()
+
   return (
     <div>
          <Header/>

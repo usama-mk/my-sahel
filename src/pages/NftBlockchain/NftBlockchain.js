@@ -6,10 +6,13 @@ import TagOptions from '../../sections/TagOptions/TagOptions'
 import Footer from '../../components/Footer/Footer'
 import WhyNeedsItem from '../../components/WhyNeedsItem/WhyNeedsItem'
 import hippoCover from '../../assets/images/hippo-cover@2x.png'
+import { scrollToTop } from '../../utilities/scroll'
+
 
 
 
 function NftBlockchain() {
+scrollToTop()
   return (
     <div>
         <Header/>

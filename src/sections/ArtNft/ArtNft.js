@@ -7,7 +7,7 @@ import artistThree from '../../assets/images/artistThree.png'
 
 function ArtNft() {
   return (
-    <div>
+    <div id='artnfts' >
          <SectionHeader name={"art exhibition & nft"} />
          <div className=" sm:flex mb-10 mr-0  ">
          <FeaturedArtist art={true} heading={"live art exhibitions"}

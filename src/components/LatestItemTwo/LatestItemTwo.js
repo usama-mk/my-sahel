@@ -1,11 +1,14 @@
 import React from 'react'
 import arrowBlack from "../../assets/images/arrowBlack-2x.png";
 import { LatestTag } from '../LatestItem/LatestTag';
+import { useNavigate } from "react-router-dom";
 
 
-function LatestItemTwo({image, text}) {
+
+function LatestItemTwo({image, text, address}) {
+  let navigate = useNavigate();
   return (
-    <div className='bg-[#EEEEEE] text-left' >
+    <div onClick={()=> navigate(`/${address}`)} className='bg-[#EEEEEE] text-left cursor-pointer ' >
         <img className='w-[800px] ' src={image} alt="" />
        <div className='p-5' >
        <LatestTag fill={"black"} tagName="art exhibition" />

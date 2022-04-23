@@ -5,7 +5,7 @@ import SectionHeader from "../../components/SectionHeader/SectionHeader";
 
 function SponserBanner() {
   return (
-    <div className="bg-[#FEBF10] p-10">
+    <div id="sponser" className="bg-[#FEBF10] p-10">
       <SectionHeader name={"become a sponser"} />
       <div className="m-8" >
       <div className="flex justify-evenly sm:justify-start  py-3  ">

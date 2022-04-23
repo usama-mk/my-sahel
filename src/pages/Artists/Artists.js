@@ -1,21 +1,19 @@
 import React from 'react'
-import Header from '../../components/Header/Header'
 import DonateBanner from '../../components/DonateBanner/DonateBanner'
+import Footer from '../../components/Footer/Footer'
+import Header from '../../components/Header/Header'
+import ArtistsSection from '../../sections/ArtistsSection/ArtistsSection'
 import SponserBanner from '../../sections/SponserBanner/SponserBanner'
 import TagOptions from '../../sections/TagOptions/TagOptions'
-import Footer from '../../components/Footer/Footer'
-import EventCover from '../../sections/EventCover/EventCover'
-import EventNumber from '../../sections/EventNumber/EventNumber'
 import { scrollToTop } from '../../utilities/scroll'
 
 
-function AboutEvent() {
-  scrollToTop()
+function Artists() {
+scrollToTop()
   return (
     <div>
         <Header/>
-        <EventCover/>
-        <EventNumber/>
+        <ArtistsSection/>
         <SponserBanner/>
         <TagOptions/>
         <DonateBanner/>
@@ -24,4 +22,4 @@ function AboutEvent() {
   )
 }
 
-export default AboutEvent
+export default Artists

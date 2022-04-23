@@ -9,8 +9,10 @@ import Latest from '../../sections/Latest/Latest'
 import SponserBanner from '../../sections/SponserBanner/SponserBanner'
 import TagOptions from '../../sections/TagOptions/TagOptions'
 import Footer from '../../components/Footer/Footer'
+import { scrollToTop } from '../../utilities/scroll'
 
 function LandingPage() {
+  scrollToTop()
   return (
     <div>
         <Header/>

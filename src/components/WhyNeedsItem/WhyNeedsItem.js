@@ -5,7 +5,7 @@ import quoteImg from '../../assets/images/quote@2x.png'
 
 function WhyNeedsItem({tagName, heading, image, headingTwo, paraOne, paraTwo, quote}) {
   return (
-    <div className='flex flex-col items-start ' >
+    <div className='flex flex-col items-start cursor-pointer ' >
         <div className='m-4 mb-2 3xl:m-12 3xl:mb-6' >
         <LatestTag tagName={tagName} event={true} fill={"black"} />
         <h1 className='text-left font-medium uppercase 3xl:text-[50px] ' >{heading}</h1>

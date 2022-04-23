@@ -1,9 +1,9 @@
 import React from 'react'
 import smallArrow from '../../assets/images/small-arrow-2x.png'
 
-function SectionHeader({name, events, borderBottomWhite}) {
+function SectionHeader({name, events, borderBottomWhite, id}) {
   return (
-    <div className={` text-left m-2 border-b-2 ${borderBottomWhite?"border-white":"border-black"} uppercase flex items-center 2xl:m-8 2xl:mt-16 3xl:m-8 3xl:mt-16 `} >
+    <div id={id}  className={` text-left m-2 border-b-2 ${borderBottomWhite?"border-white":"border-black"} uppercase flex items-center 2xl:m-8 2xl:mt-16 3xl:m-8 3xl:mt-16 `} >
         <h1 className='text-[25px] 2xl:text-[60px] 3xl:text-[60px] ' >{name}</h1>
 
        {

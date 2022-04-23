@@ -7,7 +7,7 @@ import homeConcert from '../../assets/images/home concert.png'
 
 function Events() {
   return (
-    <div>
+    <div id="events" >
       <SectionHeader name={"events"} events={true} />
       {/* events body */}
       <div className="sm:flex mb-10">

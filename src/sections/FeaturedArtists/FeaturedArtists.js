@@ -54,7 +54,7 @@ function FeaturedArtists() {
         )
     }
   return (
-    <div>
+    <div id="artists" >
          <SectionHeader name={"Featured Artists"} />
          {/* row 1 */}
          <div className=" sm:flex mb-10 ">
