@@ -11,7 +11,7 @@ function FeaturedArtist({ image, heading, desc, tagNames, art }) {
 
       3xl:w-[640px] 3xl:h-[633px] object-cover ' alt="" />
       <div className="flex flex-col p-4">
-        <div className="flex justify-evenly sm:justify-start  py-3  ">
+        <div className="flex justify-center sm:justify-start  py-3  ">
           
           {
               tagNames.map((tagName , key)=>

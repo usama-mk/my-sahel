@@ -15,12 +15,16 @@ function Events() {
         {/* left */}
         <div className="flex flex-col justify-evenly sm:items-start p-3 bg-[#43A047] sm:w-[34%] 2xl:p-8 3xl:p-10 ">
           {/* tags */}
-          <div className="flex justify-evenly sm:justify-start">
-            <LatestTag event={true} tagName={"Event 1"} />
-            <LatestTag event={true} tagName={"Day 1"} />
+          <div className="flex justify-center sm:justify-start">
+            {
+              landingPageContent.Events.tagNames.map((tagName, key)=>
+              <LatestTag key={key} event={true} tagName={tagName} />
+              )
+            }
+           
           </div>
           {/* event title */}
-          <h1 className="uppercase text-white text-[24px] font-medium 2xl:text-[70px] 3xl:text-[99px] sm:text-left "> {landingPageContent.Events.eventTitle} </h1>
+          <h1 className="uppercase text-white text-[24px] font-medium 2xl:text-[70px] 3xl:text-[99px] sm:text-left mt-5 sm:mt-2 "> {landingPageContent.Events.eventTitle} </h1>
           {/* event date */}
           <h1 className="uppercase text-white text-[18px] font-medium 2xl:text-[40px] 3xl:text-[52px] " > {landingPageContent.Events.eventDate} </h1>
 
@@ -51,7 +55,7 @@ function Events() {
         <div className="flex flex-col bg-[#E5E5E5] sm:items-start " >
             <img src={concert} className='2xl:w-[657px] 2xl:h-[285px] 3xl:w-[657px] 3xl:h-[385px] object-cover ' alt="" />
             <div className=" p-5 sm:text-left 2xl:p-8 3xl:p-10 " >
-            <div className="flex justify-evenly sm:justify-start ">
+            <div className="flex justify-center sm:justify-start ">
             {
               landingPageContent.Events.eventMid.tagNames.map((tagName, key)=> 
                 <LatestTag key={key} event={true} fill={"black"} tagName={tagName} />
@@ -83,7 +87,7 @@ function Events() {
         <div className="flex flex-col bg-[#EEEEEE] sm:items-start " >
             <img className='2xl:w-[657px] 2xl:h-[285px] 3xl:w-[657px] 3xl:h-[385px] object-cover  ' src={homeConcert} alt="" />
             <div className=" p-5 sm:text-left " >
-           <div className="flex justify-evenly sm:justify-start" >
+           <div className="flex justify-center sm:justify-start" >
            <LatestTag event={true} fill={"black"} tagName={"coming soon"} />
            </div>
             

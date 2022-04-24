@@ -11,7 +11,7 @@ export const landingPageContent={
     tagTwo: "art exhibition",
     dateStart: "25th - 26th MAY 2022.",
     dateEnd: "MID SEP 2022",
-    imageContext: "Placeholder text talking about the context of the image",
+    imageContext: "The Sahel Song is a co-production between the United Nations (UNOCHA) and some of the most talented and influential musicians and artists from West Africa’s Sahel region.",
     artistName: "Artist Name"
     },
 
@@ -38,7 +38,7 @@ export const landingPageContent={
         },
         latestitemFour:{
             image: guitar,
-            text: "featured artists",
+            text: "FEATURED MUSICANS & ARTISTS",
             tagName: "art exhibition",
             address: "artists"
         },
@@ -54,6 +54,7 @@ export const landingPageContent={
         headerName: "events",
         headerAddress: "about-events",
         eventTitle: `UN - OCHA ‘MySahel’`,
+        tagNames: ["Event 1", "Day 1" ],
         eventDate: "25th may 2022",
         eventTime: "6pm - 9pm",
         eventSeats: "50-60 Seats Available",
