@@ -18,7 +18,7 @@ function FeaturedArtists() {
                 {/* why left */}
                 <div className='sm:w-[50%] bg-[#161616] text-white py-10 px-5 ' >
 
-                    <SectionHeader name={"why the sahel region needs your help"} borderBottomWhite={"true"} />
+                    <SectionHeader name={"why the sahel region needs your help"} borderBottomWhite={"true"} address={"artists"} />
                     
                     <div className='2xl:m-4 3xl:m-8' >
                     <div className="flex justify-evenly sm:justify-start  py-3  ">
@@ -55,7 +55,7 @@ function FeaturedArtists() {
     }
   return (
     <div id="artists" >
-         <SectionHeader name={"Featured Artists"} />
+         <SectionHeader name={"Featured Artists"} address={"artists"} />
          {/* row 1 */}
          <div className=" sm:flex mb-10 ">
          <FeaturedArtist heading={"vieus farka toure"}

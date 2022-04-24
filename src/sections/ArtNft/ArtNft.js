@@ -1,26 +1,26 @@
 import React from 'react'
 import FeaturedArtist from '../../components/FeaturedArtist/FeaturedArtist'
 import SectionHeader from '../../components/SectionHeader/SectionHeader'
-import artistOne from '../../assets/images/artistOne.png'
-import artistTwo from '../../assets/images/artistTwo.png'
-import artistThree from '../../assets/images/artistThree.png'
+import art1 from '../../assets/images/art1.png'
+import art2 from '../../assets/images/art2.png'
+import art3 from '../../assets/images/art3.png'
 
 function ArtNft() {
   return (
     <div id='artnfts' >
-         <SectionHeader name={"art exhibition & nft"} />
+         <SectionHeader name={"art exhibition & nft"} address={"art-exhibition"} />
          <div className=" sm:flex mb-10 mr-0  ">
          <FeaturedArtist art={true} heading={"live art exhibitions"}
-         image={artistOne} 
+         image={art1} 
          tagNames={["art exhibition"]}
          />
           <FeaturedArtist art={true} heading={"nfts through eluv.io platform"}
-         image={artistTwo} 
+         image={art2} 
          tagNames={["nft", "eluv.io"]}
          />
 
         <FeaturedArtist art={true} heading={"featuring sahel's most talented artists"}
-         image={artistThree} 
+         image={art3} 
          tagNames={["artists"]}
          />
          
