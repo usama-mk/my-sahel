@@ -5,13 +5,13 @@ import { useNavigate } from "react-router-dom";
 
 
 
-function LatestItemTwo({image, text, address}) {
+function LatestItemTwo({image, text, address, tagName}) {
   let navigate = useNavigate();
   return (
     <div onClick={()=> navigate(`/${address}`)} className='bg-[#EEEEEE] text-left cursor-pointer ' >
         <img className='w-[800px] ' src={image} alt="" />
        <div className='p-5' >
-       <LatestTag fill={"black"} tagName="art exhibition" />
+       <LatestTag fill={"black"} tagName={tagName} />
         <h1  className=' my-5 text-[22px] uppercase font-medium 2xl:text-[30px] 3xl:text-[50px] ' >{text}</h1>
         <img className='my-5 w-5  ' src={arrowBlack} alt="" />
        </div> 

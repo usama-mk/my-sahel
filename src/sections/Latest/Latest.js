@@ -1,38 +1,34 @@
 import React from 'react'
 import SectionHeader from '../../components/SectionHeader/SectionHeader'
 import LatestItem from '../../components/LatestItem/LatestItem'
-import needsYou from '../../assets/images/needsYou.png'
-import eventDetails from '../../assets/images/eventDetails.png'
-import hippo from '../../assets/images/hippo.png'
-import guitar from '../../assets/images/guitar.png'
-import sunset from '../../assets/images/sunset.png'
 
 import LatestItemTwo from '../../components/LatestItemTwo/LatestItemTwo'
+import { landingPageContent } from '../../utilities/Template/Template'
 
 
 function Latest() {
   return (
     <div id="latest" >
         {/* heading */}
-        <SectionHeader name={"latest"} id={`#latest`} />
+        <SectionHeader name={landingPageContent.Latest.headerName} id={landingPageContent.Latest.headerId} />
         
         <div className="flex  flex-col sm:flex-row     ">
       {/* hero Left */}
        
-       <LatestItem latestImage={needsYou} latestText="Why the Sahel Region Needs You" first={true} tagName={"purpose"} address={"needs-you"} />  
+       <LatestItem latestImage={landingPageContent.Latest.latestitemOne.image} latestText={landingPageContent.Latest.latestitemOne.text} first={true} tagName={landingPageContent.Latest.latestitemOne.tagName} address={landingPageContent.Latest.latestitemOne.address} />  
          
 
      
       {/* hero right */}
       
-       <LatestItem latestImage={eventDetails} latestText="MySahel Event Details" tagName={"about"} address={"about-events"} />  
+       <LatestItem latestImage={landingPageContent.Latest.latestitemTwo.image} latestText={landingPageContent.Latest.latestitemTwo.text} tagName={landingPageContent.Latest.latestitemTwo.tagName} address={landingPageContent.Latest.latestitemTwo.address} />  
       
     </div>
 
     <div className="row-2 sm:flex mb-10">
-    <LatestItemTwo image={hippo} text="NFT & Blockchain pairing" address={"nfts-blockchain"} /> 
-    <LatestItemTwo image={guitar} text="featured artists" address={"artists"} /> 
-    <LatestItemTwo image={sunset} text="become a sponser" address={"art-exhibition"} /> 
+    <LatestItemTwo image={landingPageContent.Latest.latestitemThree.image} text={landingPageContent.Latest.latestitemThree.text} address={landingPageContent.Latest.latestitemThree.address} tagName={landingPageContent.Latest.latestitemThree.tagName} /> 
+    <LatestItemTwo image={landingPageContent.Latest.latestitemFour.image} text={landingPageContent.Latest.latestitemFour.text} tagName={landingPageContent.Latest.latestitemFour.tagName} address={landingPageContent.Latest.latestitemFour.address} /> 
+    <LatestItemTwo image={landingPageContent.Latest.latestitemFive.image} text={landingPageContent.Latest.latestitemFive.text} tagName={landingPageContent.Latest.latestitemFive.tagName} address={landingPageContent.Latest.latestitemFive.address} /> 
     </div>
     </div>
   )
