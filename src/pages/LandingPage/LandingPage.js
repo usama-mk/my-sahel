@@ -19,7 +19,6 @@ function LandingPage() {
         <HeroSection/>
         <Latest/>
         <Events/>
-        {/* start here template */}
         <FeaturedArtists/> 
         <ArtNft/>
         <SponserBanner/>

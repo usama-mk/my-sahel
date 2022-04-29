@@ -15,6 +15,7 @@ function AboutEvent() {
     <div>
         <Header/>
         <EventCover/>
+        {/* start here template */}
         <EventNumber/>
         <SponserBanner/>
         <TagOptions/>

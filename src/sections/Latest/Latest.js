@@ -4,24 +4,38 @@ import LatestItem from '../../components/LatestItem/LatestItem'
 
 import LatestItemTwo from '../../components/LatestItemTwo/LatestItemTwo'
 import { landingPageContent } from '../../utilities/Template/Template'
+import { useMediaQuery } from 'react-responsive'
 
 
 function Latest() {
+  const isBigScreen = useMediaQuery({ query: "(min-width: 900px)" });
+
   return (
     <div id="latest" >
         {/* heading */}
         <SectionHeader name={landingPageContent.Latest.headerName} id={landingPageContent.Latest.headerId} />
         
         <div className="flex  flex-col sm:flex-row     ">
-      {/* hero Left */}
+      {
+        isBigScreen?
+        <>
+        {/* hero Left */}
        
        <LatestItem latestImage={landingPageContent.Latest.latestitemOne.image} latestText={landingPageContent.Latest.latestitemOne.text} first={true} tagName={landingPageContent.Latest.latestitemOne.tagName} address={landingPageContent.Latest.latestitemOne.address} />  
          
 
      
-      {/* hero right */}
-      
-       <LatestItem latestImage={landingPageContent.Latest.latestitemTwo.image} latestText={landingPageContent.Latest.latestitemTwo.text} tagName={landingPageContent.Latest.latestitemTwo.tagName} address={landingPageContent.Latest.latestitemTwo.address} />  
+         {/* hero right */}
+         
+          <LatestItem latestImage={landingPageContent.Latest.latestitemTwo.image} latestText={landingPageContent.Latest.latestitemTwo.text} tagName={landingPageContent.Latest.latestitemTwo.tagName} address={landingPageContent.Latest.latestitemTwo.address} />  
+        </>
+        :
+        <>
+         <LatestItemTwo image={landingPageContent.Latest.latestitemOne.image} text={landingPageContent.Latest.latestitemOne.text} address={landingPageContent.Latest.latestitemOne.address} tagName={landingPageContent.Latest.latestitemOne.tagName} /> 
+
+        <LatestItemTwo image={landingPageContent.Latest.latestitemTwo.image} text={landingPageContent.Latest.latestitemTwo.text} tagName={landingPageContent.Latest.latestitemTwo.tagName} address={landingPageContent.Latest.latestitemTwo.address} /> 
+        </>
+      }
       
     </div>
 
