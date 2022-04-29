@@ -238,6 +238,11 @@ export const landingPageContent={
         DIRECTLY GO TO THE SAHEL REGION
         FOR HUMANITARIAN PURPOSES`,
         buttonName: 'donate'
+    },
+
+    EventCover:{
+        heading: 'My Sahel, MY BEAUTIFUL Home',
+        subHeading: 'Live Entertainment Experience with a Humanitarian Purpose'
     }
 
     
