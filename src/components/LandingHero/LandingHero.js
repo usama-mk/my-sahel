@@ -22,7 +22,7 @@ function LandingHero() {
         </div>
 
         <h1 className="text-[white] font-medium uppercase sm:text-left mt-2 2xl:text-[70px] 2xl:leading-[70px] 3xl:text-[112px] 3xl:leading-[112px] ">
-          My Sahel, <br />
+          #My Sahel, <br />
           MY BEAUTIFUL Home
         </h1>
         <h5 className="text-[white] uppercase text-[10px] sm:text-left 2xl:text-[20px] 2xl:w-[65%] 3xl:text-[34px] 3xl:w-[65%]  ">
