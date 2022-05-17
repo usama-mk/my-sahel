@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import unLogo from "../../assets/images/un-2x.png";
+import unOcha from "../../assets/images/un-ocha.png";
 import closeWhite from "../../assets/images/close-white.png";
 import { useMediaQuery } from "react-responsive";
 import { Link } from "react-router-dom";
@@ -62,7 +63,9 @@ function Header() {
          <h1 className='m-3 ml-0 mr-0 text-[25px] 2xl:text-[40px] 3xl:text-[60px]  sm:m-0' >
             My<span className='font-bold ' >Sahel</span>
         </h1>
-        <img src={unLogo} className=" -ml-[25%] sm:m-0 w-20 2xl:h-fit  3xl:w-[213px] 3xl:h-fit object-contain 2xl:w-32" alt="" />
+        {/* <div className="pr-32" >
+        <img src={unOcha} className="  sm:m-0 w-20 2xl:h-fit  3xl:w-[213px] 3xl:h-fit object-contain 2xl:w-32" alt="" />
+        </div> */}
         {isBigScreen ? (
           <div className="headerOptions 2xl:flex 2xl:justify-between 2xl:items-center 2xl:p-2  ">
             <div className="flex justify-between items-center 2xl:text-[14px] 3xl:text-[21px] 2xl:mr-10">

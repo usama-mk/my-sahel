@@ -5,9 +5,11 @@ import art1 from '../../assets/images/art1.png'
 import art2 from '../../assets/images/art2.png'
 import art3 from '../../assets/images/art3.png'
 import { landingPageContent } from '../../utilities/Template/Template'
+import { Link } from 'react-router-dom'
 
 function ArtNft() {
   return (
+    <Link to='/art-exhibition' >
     <div id={landingPageContent.ArtNft.headerId} >
          <SectionHeader name={landingPageContent.ArtNft.headerName} address={landingPageContent.ArtNft.headerAddress} />
          <div className=" sm:flex mb-10 mr-0  ">
@@ -27,6 +29,7 @@ function ArtNft() {
          
          </div>
     </div>
+    </Link>
   )
 }
 

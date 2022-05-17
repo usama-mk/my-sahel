@@ -15,7 +15,7 @@ import { Link } from "react-router-dom";
 function FeaturedArtists() {
   const WhySahelHelp = () => {
     return (
-      <div className="flex flex-col sm:flex-row   ">
+      <div id="needs-you" className="flex flex-col sm:flex-row   ">
         {/* why left */}
         <div className="sm:w-[50%] bg-[#009688] sm:bg-[#161616] text-white py-10 px-5 ">
           <SectionHeader

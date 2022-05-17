@@ -7,7 +7,7 @@ import { landingPageContent } from "../../utilities/Template/Template";
 function LandingHero() {
   const SponserButton = () => {
     return (
-      <h5 className=" px-2 py-1 border-white border-2 h-fit rounded-full text-center uppercase bg-white my-7 text-[14px] 2xl:text-[30px] 2xl:px-8 2xl:my-10 2xl:py-2  3xl:text-[41px] 3xl:px-12 3xl:my-16 3xl:py-4 ">
+      <h5 className=" px-2 py-1 border-white border-2 h-fit rounded-full text-center cursor-pointer uppercase bg-white my-7 text-[14px] 2xl:text-[30px] 2xl:px-8 2xl:my-10 2xl:py-2  3xl:text-[41px] 3xl:px-12 3xl:my-16 3xl:py-4 ">
         {landingPageContent.LandingHero.sponserButtonText}
       </h5>
     );
@@ -22,18 +22,22 @@ function LandingHero() {
           <TagButton name={landingPageContent.LandingHero.tagTwo} />
         </div>
 
-        <h1 className="text-[white] font-medium uppercase sm:text-left mt-2 2xl:text-[70px] 2xl:leading-[70px] 3xl:text-[112px] 3xl:leading-[112px] ">
+        <h1 className="text-[white] font-medium uppercase sm:text-left mt-2 2xl:text-[70px] 2xl:leading-[70px] 3xl:text-[100px] 3xl:leading-[100px] ">
           #My Sahel, <br />
-          {/* MY BEAUTIFUL Home */}
+          MY BEAUTIFUL Home
         </h1>
-        <h5 className="text-[white] uppercase text-[10px] sm:text-left 2xl:text-[20px] 2xl:w-[65%] 3xl:text-[34px] 3xl:w-[65%]  ">
+        <h5 className="text-[white] uppercase text-[10px] sm:text-left 2xl:text-[20px] 2xl:w-[65%] 3xl:text-[30px] 3xl:w-[65%] mt-5 ">
         Entertainment experience with a <span className="font-bold" >Humanitarian Purpose</span>
 
         <br />
-       <span className="flex mt-5" >
-       In Partnership with UN – OCHA <img src={unOchaLogo} className={`w-28 pl-6 object-contain `} alt="" />
-       </span>
+       
         </h5>
+
+        <span className="flex mt-5 text-center text-[white] uppercase text-[10px] sm:text-left 2xl:text-[20px] 2xl:w-[65%] 3xl:text-[30px] 3xl:w-[65%]  " >
+       In Partnership with UN – OCHA 
+       {/* <img src={unOchaLogo} className={`w-28 pl-6 object-contain `} alt="" /> */}
+       </span>
+
         <div className="w-fit">
           <SponserButton />
         </div>

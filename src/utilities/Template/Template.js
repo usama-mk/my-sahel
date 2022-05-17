@@ -47,19 +47,19 @@ export const landingPageContent={
         latestitemThree:{
             image: hippo,
             text: "NFT & Blockchain pairing",
-            tagName: "art exhibition",
+            tagName: "TECHNOLOGY",
             address: "nfts-blockchain"
         },
         latestitemFour:{
             image: guitar,
             text: "FEATURED MUSICANS & ARTISTS",
-            tagName: "art exhibition",
+            tagName: "MUSIC",
             address: "artists"
         },
         latestitemFive:{
             image: sunset,
             text: "become a sponser",
-            tagName: "art exhibition",
+            tagName: "SPONSORSHIP",
             address: "art-exhibition"
         },
     },
@@ -224,12 +224,33 @@ export const landingPageContent={
         headerName: 'become a sponser',
         tagNames: ["benefit concert", "art exhibition"],
         heading: 'you can make a difference by BECOMING  a #mysahel sponsor today',
-        buttonName: 'make a pledge',
+        buttonName: 'contact',
         collabTo: 'UNITED NATIONS OCHA PROJECT'
 
     },
 
-    TagOptions: ["why sahel need you", "events", "nft", "artists", "featured musicians", "sponser", "donate"]
+    TagOptions: [{
+        name: "why sahel need you",
+        address: 'needs-you'
+    }, 
+    {
+        name: "artists",
+        address: 'artists'
+    }, 
+    {
+        name: "featured musicians",
+        address: 'artists'
+    }, 
+
+    {
+        name: "sponser",
+        address: 'sponser'
+    }, 
+    {
+        name: "donate",
+        address: 'donate'
+    }
+]
     ,
 
     Donatebanner:{

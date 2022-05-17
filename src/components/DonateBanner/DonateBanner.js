@@ -4,7 +4,7 @@ import BlackHighlight from '../BlackHighlight/BlackHighlight'
 
 function DonateBanner() {
   return (
-    <div className='flex flex-col sm:flex-row  bg-[#06BCD3] p-3 sm:p-10 3xl:p-16 ' >
+    <div id="donate" className='flex flex-col sm:flex-row  bg-[#06BCD3] p-3 sm:p-10 3xl:p-16 ' >
       {/* left */}
       <div className='sm:w-[50%]' >
       <h1 className='uppercase text-black font-medium sm:text-[24px] sm:py-5 sm:w-[50%] sm:text-left 3xl:text-[95px] 3xl:w-[70%] 3xl:leading-[88px]  ' >{landingPageContent.Donatebanner.heading}</h1>
@@ -16,7 +16,7 @@ function DonateBanner() {
         }
         </h1>
 
-        <BlackHighlight name={landingPageContent.Donatebanner.buttonName} />
+        {/* <BlackHighlight name={landingPageContent.Donatebanner.buttonName} /> */}
       </div>
     </div>
   )

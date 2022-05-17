@@ -3,6 +3,7 @@ import Header from '../../components/Header/Header'
 import ArtNft from '../../sections/ArtNft/ArtNft'
 import DonateBanner from '../../components/DonateBanner/DonateBanner'
 import Events from '../../sections/Events/Events'
+import RevisedEvents from '../../sections/Events/RevisedEvents'
 import FeaturedArtists from '../../sections/FeaturedArtists/FeaturedArtists'
 import HeroSection from '../../sections/HeroSection/HeroSection'
 import Latest from '../../sections/Latest/Latest'
@@ -18,7 +19,8 @@ function LandingPage() {
         <Header/>
         <HeroSection/>
         <Latest/>
-        <Events/>
+        {/* <Events/> */}
+        <RevisedEvents/>
         <FeaturedArtists/> 
         <ArtNft/>
         <SponserBanner/>

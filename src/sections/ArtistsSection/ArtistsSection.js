@@ -14,13 +14,13 @@ function ArtistsSection() {
         <Artist first={true} tagNames={["genre", "instruments"]} heading={"Vieux Farka TouRE"}
         subHeading={"Malian singer and guitarist, Viex incorporates elements of rock and Latin music into the Saharan blues and traditional melodies of Mali in his songs, which reflect a deep connection to and reverence for family and country."}
         quote={`“It is only by having peace between us that we will have it tomorrow for our children”`}
-        instaUser={`@vieuxfarkatoure`}
+        instaUser={`@VIEUXFARKATOURÉ`}
         instaFollowers={`1,924`}
-        fbUser={`@vieuxfarkatoure`}
+        fbUser={`@VIEUXFARKATOURÉ`}
         fbFollowers={`47k`}
-        twitterUser={`@vieuxfarkatoure`}
+        twitterUser={`@VIEUXFARKATOURÉ`}
         twitterFollowers={`5686`}
-        spotifyUser={`Vieux Farka Toure`}
+        spotifyUser={`VIEUX FARKA TOURÉ`}
         spotifyListeners={`67,729`}
         image={artist1}
        
@@ -34,13 +34,13 @@ function ArtistsSection() {
         JOIN HANDS SO THAT THE
         SAHEL CAN MOVE FORWARD
         AND CHANGE THINGS”`}
-        instaUser={`@vieuxfarkatoure`}
+        instaUser={`@AMADOUETMARIAM`}
         instaFollowers={`13.1K`}
-        fbUser={`@vieuxfarkatoure`}
+        fbUser={`@AMADOUMARIAM`}
         fbFollowers={`497,849`}
-        twitterUser={`@vieuxfarkatoure`}
+        twitterUser={`@AMADOUETMARIAM`}
         twitterFollowers={`12.8K`}
-        spotifyUser={`Vieux Farka Toure`}
+        spotifyUser={`AMADOU & MARIAM`}
         spotifyListeners={`793,381`}
         image={artist2}
        
@@ -55,13 +55,13 @@ function ArtistsSection() {
         quote={`“LET’S JOIN HANDS TO END THE
         WAR THAT IS TEARING OUR
         REGION APART”`}
-        instaUser={`@vieuxfarkatoure`}
+        instaUser={`@AMADOUETMARIAM`}
         instaFollowers={`13.1K`}
-        fbUser={`@vieuxfarkatoure`}
+        fbUser={`@AMADOUMARIAM`}
         fbFollowers={`497,849`}
-        twitterUser={`@vieuxfarkatoure`}
+        twitterUser={`@AMADOUETMARIAM`}
         twitterFollowers={`12.8K`}
-        spotifyUser={`Vieux Farka Toure`}
+        spotifyUser={`AMADOU & MARIAM`}
         spotifyListeners={`793,381`}
         image={artist3}
        
@@ -80,13 +80,13 @@ function ArtistsSection() {
         BUILD A MORE STABLE SAHEL
         WHERE EVERYONE FEELS AT
         HOME”`}
-        instaUser={`@vieuxfarkatoure`}
+        instaUser={`@OMG_OUMY_GUEYE`}
         instaFollowers={`615K`}
-        fbUser={`@vieuxfarkatoure`}
+        fbUser={`@OMGOUMYGUEYE`}
         fbFollowers={`288K`}
-        twitterUser={`@vieuxfarkatoure`}
+        twitterUser={`@AMADOUETMARIAM`}
         twitterFollowers={`1.7K`}
-        spotifyUser={`Vieux Farka Toure`}
+        spotifyUser={`OMG OUMY GUEYE`}
         spotifyListeners={`3,736`}
         image={artist4}
        
@@ -102,13 +102,13 @@ function ArtistsSection() {
         and multi-ethnic Niger.`}
         quote={`“NOTHING REMAINS BUT TO
         MAKE PEACE BETWEEN US”`}
-        instaUser={`@vieuxfarkatoure`}
+        instaUser={`@TALNATIONAL`}
         instaFollowers={`911`}
-        fbUser={`@vieuxfarkatoure`}
+        fbUser={`@TALNATIONAL`}
         fbFollowers={`10,635`}
         // twitterUser={`@vieuxfarkatoure`}
         // twitterFollowers={`5686`}
-        spotifyUser={`Vieux Farka Toure`}
+        spotifyUser={`TAL NATIONAL`}
         spotifyListeners={`1,850`}
         image={artist5}
        
@@ -122,13 +122,13 @@ function ArtistsSection() {
         and achievements including collaborations with
         notable artists such as U2 and Carlos Santana.`}
         // quote={``}
-        instaUser={`@vieuxfarkatoure`}
+        instaUser={`@BASSEKOUKOUYATE`}
         instaFollowers={`1,570`}
-        fbUser={`@vieuxfarkatoure`}
+        fbUser={`@NGONI.BA`}
         fbFollowers={`16,878`}
-        twitterUser={`@vieuxfarkatoure`}
+        twitterUser={`@BASSEKOU`}
         twitterFollowers={`2,315`}
-        spotifyUser={`Vieux Farka Toure`}
+        spotifyUser={`BASSEKOU KOUYATTE`}
         spotifyListeners={`57,219`}
         image={artist6}
        
