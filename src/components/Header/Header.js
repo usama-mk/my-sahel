@@ -39,7 +39,7 @@ function Header() {
           <h5 onClick={()=>scrollInto("latest")} className="m-3 2xl:m-3 3xl:m-5">
             LATEST</h5>
           <h5 onClick={()=>scrollInto("events")} className="m-3 2xl:m-3 3xl:m-5"> 
-          <Link to="/about-events">ABOUT THE EVENTS</Link>
+          <Link to="/about-events">ABOUT PROJECT</Link>
             </h5>
           <h5 onClick={()=>scrollInto("artists")} className="m-3 2xl:m-3 3xl:m-5">ARTISTS</h5>
           <h5 onClick={()=>scrollInto("artnfts")} className="m-3 2xl:m-3 3xl:m-5">ART EXHIBITION</h5>
@@ -71,7 +71,7 @@ function Header() {
               </h5>
               <h5 onClick={()=>scrollInto("latest")} className=" cursor-pointer 2xl:m-5">LATEST</h5>
               <h5 onClick={()=>scrollInto("events")} className=" cursor-pointer 2xl:m-5">
-              ABOUT THE EVENTS
+              ABOUT PROJECT
                 </h5>
               <h5 onClick={()=>scrollInto("artists")} className=" cursor-pointer 2xl:m-5">ARTISTS</h5>
               <h5 onClick={()=>scrollInto("artnfts")} className=" cursor-pointer 2xl:m-5">ART EXHIBITION</h5>

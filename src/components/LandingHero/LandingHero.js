@@ -1,6 +1,7 @@
 import React from "react";
 import TagButton from "./TagButton";
 import heroGirl from '../../assets/images/heroGirl.png'
+import unOchaLogo from '../../assets/images/un-ocha.png'
 import { landingPageContent } from "../../utilities/Template/Template";
 
 function LandingHero() {
@@ -23,10 +24,15 @@ function LandingHero() {
 
         <h1 className="text-[white] font-medium uppercase sm:text-left mt-2 2xl:text-[70px] 2xl:leading-[70px] 3xl:text-[112px] 3xl:leading-[112px] ">
           #My Sahel, <br />
-          MY BEAUTIFUL Home
+          {/* MY BEAUTIFUL Home */}
         </h1>
         <h5 className="text-[white] uppercase text-[10px] sm:text-left 2xl:text-[20px] 2xl:w-[65%] 3xl:text-[34px] 3xl:w-[65%]  ">
-          Live Entertainment Experience with a <span className="font-bold" >Humanitarian Purpose</span>
+        Entertainment experience with a <span className="font-bold" >Humanitarian Purpose</span>
+
+        <br />
+       <span className="flex mt-5" >
+       In Partnership with UN – OCHA <img src={unOchaLogo} className={`w-28 pl-6 object-contain `} alt="" />
+       </span>
         </h5>
         <div className="w-fit">
           <SponserButton />

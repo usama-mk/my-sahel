@@ -46,7 +46,11 @@ function Artist({
         <div className="" >
             <SocialContact username={instaUser} followers={instaFollowers} socialImage={insta}  />
             <SocialContact username={fbUser} followers={fbFollowers} socialImage={fb}  />
-            <SocialContact username={twitterUser} followers={twitterFollowers} socialImage={twitter}  />
+            {
+              twitterFollowers ?
+              <SocialContact username={twitterUser} followers={twitterFollowers} socialImage={twitter}  />
+              :''
+            }
             <SocialContact spotify={true} username={spotifyUser} followers={spotifyListeners} socialImage={spotify}  />
         </div>
       </div>

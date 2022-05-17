@@ -20,7 +20,7 @@ import art3 from '../../assets/images/art3.png'
 
 export const landingPageContent={
     LandingHero: {
-    sponserButtonText: "BECOME A SPONSER",
+    sponserButtonText: "JOIN OUR NEWSLETTER",
     tagOne: "BENEFIT CONCERT",
     tagTwo: "art exhibition",
     dateStart: "25th - 26th MAY 2022.",
@@ -207,7 +207,7 @@ export const landingPageContent={
             tagNames: ["art exhibition"]
         },
         FeaturedArtistTwo: {
-            heading: 'nfts through eluv.io platform',
+            heading: 'NFT OPPORTUNITIES',
             image: art2,
             tagNames: ["nft", "eluv.io"]
         },

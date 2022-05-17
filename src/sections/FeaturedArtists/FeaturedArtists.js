@@ -10,6 +10,7 @@ import artistSix from "../../assets/images/artistSix.png";
 import desertWalk from "../../assets/images/desert-walk@2x.png";
 import { LatestTag } from "../../components/LatestItem/LatestTag";
 import { landingPageContent } from "../../utilities/Template/Template";
+import { Link } from "react-router-dom";
 
 function FeaturedArtists() {
   const WhySahelHelp = () => {
@@ -58,6 +59,7 @@ function FeaturedArtists() {
     );
   };
   return (
+    <Link to={'/artists'} >
     <div id={landingPageContent.FeaturedArtists.headerId}>
       <SectionHeader name={landingPageContent.FeaturedArtists.headerName} address={landingPageContent.FeaturedArtists.headerAddress} />
       {/* row 1 */}
@@ -124,6 +126,7 @@ function FeaturedArtists() {
 
       <WhySahelHelp />
     </div>
+    </Link>
   );
 }
 
