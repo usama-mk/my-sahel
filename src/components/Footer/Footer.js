@@ -19,7 +19,7 @@ function Footer() {
 {/* 
         <img className=" w-20  m-5 mb-10 sm:m-0 3xl:w-[294px] 3xl:h-[83px] " src={unOcha} alt="" /> */}
         <h3 className='uppercase font-bold m-5 mb-10 sm:m-0' >
-        ALL PROCEEDS FROM THE SONG GO TO THE <span className=' text-[#06BCD3] ' >UN</span>ITED NATIONS FUNDS FOR THE SAHEL
+        ALL PROCEEDS FROM THE SONG GO TO THE <span className=' text-[#06BCD3] ' >UNITED NATIONS</span> FUNDS FOR THE SAHEL
         </h3>
 
         <div className='flex' >
